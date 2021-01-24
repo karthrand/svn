@@ -1,5 +1,6 @@
 # 修改配置
-修改create.sh里的自定义设置，主要是设置svn仓库的名称、用户名密码等
+修改config文件后构建镜像，或者使用已有的镜像创建容器后，再更改设置
+已有的镜像：dockerhub  karthrand/svn:1.0
 
 # 构建镜像命令
 docker build -t [自定义镜像名] .
