@@ -1,0 +1,9 @@
+#--自定义设置--
+#svn服务的仓库名称
+svn_name="svn"
+#用户名,可更新
+username="root"
+#密码,可更新
+passwd="root"
+#匿名用户设置，none是不可读，read是可读，可更新
+anon_access_set="none"
